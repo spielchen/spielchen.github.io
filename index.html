@@ -1,68 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Example</title>
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,900" rel="stylesheet">
-	<link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-	<div class="header">
-		<div class="head_line">
-			<div class="head_line__logo">
-				<picture>
-			 				<source type="img/svg+xml" srcset="img/logo.png">
-			 				<img src="img/logo.svg" alt="Logo">
-			 			</picture>
-			</div>
-			<div class="head_line__menu">
-				<a href="#" class="m_link">Home</a>
-				<a href="#" class="m_link">Devices</a>
-				<a href="#" class="m_link">Delivery & Payment</a>
-				<a href="#" class="m_link">Guarantee</a>
-				<a href="#" class="m_link">About Us</a>
-			</div>
-			<div class="head_line__cart">
-				<a href="#" class="card_link">
-				<span class="card_link_before"></span>
-				card
-				</a>
-				<span class="card_link_number">0</span>
-			</div>
-			<div class="head_line__button">
-				<button type="button" class="hl_button">sign in</button>
-			</div>
-		</div>
-		<div class="header__border"></div>
-		<div class="header__line">
-			<div class="head_line__nav">
-				<a href="#" class="nav_link">Top Sales</a>
-				<a href="#" class="nav_link">Brand Focus</a>
-				<a href="#" class="nav_link">Hi-tech</a>
-				<a href="#" class="nav_link">Best Sellers</a>
-				<a href="#" class="nav_link">Projects</a>
-			</div>
-			<div class="head_line__support">
-				<a href="#" class="link_support">support</a>
-			</div>
-			<div class="head_line__search">
-				<span class="hl_search_before">
-				<img src="img/search.svg" alt="search">
-				</span>
-				<input type="text" class="hl_search" placeholder="I’m looking for ...">
-			</div>
-		</div>
-	</div>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap Grid</title>
 
-	<div class="content">
-		<div class="content__text">
-			<p class="text_1">iPhone 6 32Gb <br> Black</p>
-			<p class="text_2">At first, for some time, I was not able to answer him one word; but as he had taken me in his arms I held fast by him, or I should have fallen to the ground.</p>
-		</div>
-		<div class="content__button">
-			<button type="button" class="con_button">Buy Now</button>
-		</div>
-	</div>
-</body>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.grid.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+     <div class="container">
+      <div class="row text-center">
+         <div class="col-sm-12">
+           <h1 class="header-text">Почему с нами работают?</h1>
+          </div>
+         <div class="row text-center">
+            <div class="col-sm-3 item">
+              <div class="img-place"><img src="img/1.png" alt="Позвольте вашим деньгам работать"></div> 
+                <h2>Позвольте вашим деньгам работать</h2>
+                <p>Проценты по договорам займа выше банковских</p>
+            </div>
+            <div class="col-sm-3 item">
+               <div class="img-place"><img src="img/2.png" alt="Зарабатывайте вместе с нами"></div> 
+                 <h2>Зарабатывайте вместе с нами</h2>
+                <p>Мы вкладываем собственные средства</p>
+           </div>
+            <div class="col-sm-3 item">
+               <div class="img-place"><img src="img/3.png" alt="Абсолютная надежность"></div> 
+                <h2>Абсолютная надежность</h2>
+                <p>Все договоры займа обеспечены залогом</p>
+           </div>
+            <div class="col-sm-3 item">
+              <div class="img-place"><img src="img/4.png" alt="Никаких рисков"> </div>  
+                <h2>Никаких <br> рисков</h2> 
+                <p>Наша профессиональная деятельность застрахована</p>
+           </div>
+         </div>
+       </div>
+     </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
 
